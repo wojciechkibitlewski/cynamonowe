@@ -1,37 +1,37 @@
 import Head from 'next/head'
 
 import Googlemaps from "../components/Googlemaps";
-import Studio from "../components/Studio";
-import Szklarnia from "../components/Szklarnia";
+import PriceStudio from "../components/PriceStudio";
+import PriceSzklarnia from "../components/PriceSzklarnia";
+import Testimonial from "../components/Testimonial";
 
-import LastEvent from "../components/LastEvent";
-
-export default function Home(props) {
+export default function Kontakt(props) {
+    
   return (
     <>
-      <Head>
+    <Head>
         <meta charset="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://cynamonowe.com/" />
         <title>
-          Cynamonowe.com. Wnętrze i szklarnia do wynajęcia. Katowice
+          Kontakt. Wnętrze i szklarnia do wynajęcia. Katowice
         </title>
 
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Cynamonowe Studio. Wnętrze i szklarnia do wynajęcia. Katowice"
+          content="Kontakt. Wnętrze i szklarnia do wynajęcia. Katowice"
         />
         <meta
           property="og:description"
-          content="Sesje Świąteczne w Cynamonowym studio. Od 7 listopada nasze studio oraz szklarnia zamienią się w krainę świątecznej magii"
+          content="Wynajmij studio lub szklarnię do sesji fotograficznej. Skontaktuj się z nami telefonicznie lub mailowo"
         />
         <meta property="og:url" content="https://cynamonowe.com/" />
         <meta
           property="og:site_name"
-          content="Cynamonowe Studio - wnętrze i szklarnia do wynajęcia. Katowice"
+          content="Kontakt. Wnętrze i szklarnia do wynajęcia. Katowice"
         />
         <meta
           property="article:publisher"
@@ -48,11 +48,13 @@ export default function Home(props) {
         <link rel="icon" href="images/splash/cropped-cynamonowe-ico-white-32x32.png" sizes="32x32" />
         <link rel="icon" href="images/splash/cropped-cynamonowe-ico-white-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon" href="images/splash/cropped-cynamonowe-ico-white-180x180.png" />   
+
       </Head>
-      <LastEvent />
-      <Studio />
-      <Szklarnia />
+      <Testimonial />
+      <PriceStudio />
+      <PriceSzklarnia />
       <Googlemaps />
     </>
-  );
+  )
+  
 }

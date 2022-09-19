@@ -1,129 +1,117 @@
-.container {
-  padding: 0 2rem;
+
+.splash {
+  background-image: url('../images/splash/IMG_9583-2048x1365.jpg');
+  height: 90vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.splashContact {
+  background-image: url('../images/splash/szklarnia-katowice-01-1536x1024.jpg');
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  width: 200px;
+  margin-right: 20px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+.footerlink a {
+  color: #ccc;
+  display: block;
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
+.footerlink a:hover {
   text-decoration: underline;
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.mapsContactNagl {
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 15px;
+  margin-bottom: 10px;
 }
+.mapsContactPhone {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 800;
+}
+.mapsContactAddress {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 
-.title,
-.description {
+}
+.homeTitle {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 800;
+}
+.testimonialTitle {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 150px;
+
+}
+.homeTextCenter {
   text-align: center;
 }
+.testimonialNameLast {
+  color: #bfbfbf;
+  font-size: 1.3em;
+  font-weight: 600;
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+}
+.testimonialWho {
+  text-transform: uppercase;
+  font-size: 13pt;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #000;
+
+}
+.price {
+  font-size: 3em;
+  font-weight: 100;
+  color: #000;
+  text-align: center;
+
+}
+.images {
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 17px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 2px 17px -14px rgba(66, 68, 90, 1);
+  box-shadow: 2px 2px 17px -14px rgba(66, 68, 90, 1);
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media only screen and (max-width: 576px) {
+  .mapsContactPhone {
+    font-size: 2.0em;
   }
-}
+  .homeTitle {
+    font-size: 2.3em;
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
   }
-  .code {
-    background: #111;
+  .testimonialTitle {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 600;
+    margin: 30px 10px;
+  
   }
-  .logo img {
-    filter: invert(1);
+  .price {
+    font-size: 1.7em;
+    
+  
   }
 }
