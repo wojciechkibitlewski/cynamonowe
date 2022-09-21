@@ -16,7 +16,7 @@ const LastEvent = () => {
         <>
           <Container maxWidth="lg" sx={{ padding: "20px 0px" }}>
             <Grid container spacing={2}>
-                <Grid item md={12} xs={12} sx={{padding: '10px'}}>
+                <Grid item md={12} xs={12} sx={{padding: '20px'}}>
                     <Typography variant="h3" className={styles.homeTitle} gutterBottom >
                         Sesje świąteczne w cynamonowym Studio
                     </Typography>
