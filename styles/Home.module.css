@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap');
+
 
 .splash {
   background-image: url('../images/splash/IMG_9583-2048x1365.jpg');
@@ -33,12 +35,16 @@
   font-weight: 400;
   letter-spacing: 15px;
   margin-bottom: 10px;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 .mapsContactPhone {
   text-transform: uppercase;
   font-size: 3em;
   text-align: center;
   font-weight: 800;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 .mapsContactAddress {
   text-transform: uppercase;
@@ -48,6 +54,8 @@
   letter-spacing: 5px;
   margin-bottom: 40px;
   margin-top: 20px;
+  font-family: 'Maven Pro', sans-serif;
+
 
 }
 .homeTitle {
@@ -55,16 +63,22 @@
   font-size: 3em;
   text-align: center;
   font-weight: 800;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 .testimonialTitle {
   font-size: 1.3em;
   text-align: center;
   font-weight: 600;
   margin: 30px 150px;
+  font-family: 'Maven Pro', sans-serif;
+
 
 }
 .homeTextCenter {
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 .testimonialNameLast {
   color: #bfbfbf;
@@ -81,10 +95,11 @@
 
 }
 .price {
-  font-size: 3em;
+  font-size: 2.2em;
   font-weight: 100;
   color: #000;
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
 
 }
 .images {

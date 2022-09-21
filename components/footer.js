@@ -15,7 +15,7 @@ const Footer = () => {
     <Container maxWidth="100%" sx={{backgroundColor:'#000', color:'#fff', textAlign: 'center', padding: '20px 0px'}}>
         <Grid container spacing={2}>
             <Grid item md={4} xs={12}>
-            <Typography variant="subtitle2" gutterBottom >
+            <Typography variant="subtitle2" className="maven" gutterBottom >
                 Studio: ul. Śnieżyczek 11A, Katowice Podlesie<br/>
                 Zarezerwuj termin: +48 519 635 973
             </Typography>
