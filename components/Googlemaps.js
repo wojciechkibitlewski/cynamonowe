@@ -30,7 +30,7 @@ const Googlemaps = () => {
         >
             Ul. Śnieżyczek 11A, Katowice Podlesie
         </Typography>
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="https://maps.google.com/maps?q=%C5%9Anie%C5%BCyczek%2011A%2C%20Katowice&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Śnieżyczek 11A, Katowice" aria-label="Śnieżyczek 11A, Katowice"></iframe>
+        <iframe width="100%" height="400px" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?q=%C5%9Anie%C5%BCyczek%2011A%2C%20Katowice&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Śnieżyczek 11A, Katowice" aria-label="Śnieżyczek 11A, Katowice"></iframe>
 
     </Container>
   )

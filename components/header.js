@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useRouter } from 'next/router'
+import Image from 'next/future/image';  
 
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -18,6 +19,11 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 
 import styles from "../styles/Home.module.css";
+import stylesImage from "../styles/Image.module.css";
+
+import imageHeader from '../images/splash/IMG_9561-300x200.jpg';
+import imageLogo from '../images/splash/cynamonowe-white-2.png';
+
 
 const navItems = [
   {title: "Strona główna", link: "/"},
@@ -47,10 +53,11 @@ export default function Home(props) {
         height: "100vh",
       }}
     >
-      <img
-        src="images/splash/IMG_9561-300x200.jpg"
-        alt="Cynamonowe.com Studio i szklarnia do wynajęcia"
-      />
+      <div className={stylesImage.imageContainer}>
+        <Image src={imageHeader} layout="fill" className={stylesImage.image} placeholder="blur" alt="Cynamonowe.com Studio i szklarnia do wynajęcia" />
+      </div>
+      
+
       <Typography
         variant="h6"
         component="div"
@@ -120,11 +127,10 @@ export default function Home(props) {
               >
                 <MenuIcon />
               </IconButton>
-              <img
-                className={styles.logo}
-                src="https://cynamonowe.com/wp-content/uploads/2021/05/cynamonowe-white-2.png"
-                alt="Cynamonowe.com Studio i szklarnia do wynajęcia"
-              />
+              <div className={stylesImage.imageContainerLogo}>
+                <Image src={imageLogo} layout="fill" className={stylesImage.imageLogo} placeholder="blur" alt="Cynamonowe.com Studio i szklarnia do wynajęcia" />
+              </div>
+              
               <Typography
                 variant="h6"
                 component="div"

@@ -1,6 +1,15 @@
 import React from "react";
+import Image from 'next/future/image';  
+
 import {Container, Grid, Typography} from "@mui/material";
 import styles from "../styles/Home.module.css";
+import stylesImage from "../styles/Image.module.css";
+
+import imageA from '../images/splash/sesje_swiateczne_01-768x512.jpg';
+import imageB from '../images/splash/sesje-swiateczne-02-768x701.jpg';
+import imageC from '../images/splash/sesje-swiateczne-03-768x512.jpg';
+import imageD from '../images/splash/sesje-swiateczne-04-768x512.jpg';
+
 
 const LastEvent = () => {
     return (
@@ -22,18 +31,25 @@ const LastEvent = () => {
                     </Typography>
                 </Grid>                
                 <Grid item md={6} xs={12}>
-                    <img className={styles.images} src="images/splash/sesje_swiateczne_01-768x512.jpg" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia" loading="lazy"/>
+                <div className={stylesImage.imageContainer}>
+                    <Image src={imageA} layout="fill" className={stylesImage.image} placeholder="blur" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia"/>
+                </div>
                 </Grid>
                 <Grid item md={6} xs={12}>
-                    <img className={styles.images} src="images/splash/sesje-swiateczne-02-768x701.jpg" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia" loading="lazy"/>
+                <div className={stylesImage.imageContainer}>
+                    <Image src={imageB} layout="fill" className={stylesImage.image} placeholder="blur" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia"/>
+                </div>
                 </Grid>
                 <Grid item md={6} xs={12}>
-                    <img className={styles.images} src="images/splash/sesje-swiateczne-03-768x512.jpg" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia" loading="lazy"/>
+                <div className={stylesImage.imageContainer}>
+                    <Image src={imageC} layout="fill" className={stylesImage.image} placeholder="blur" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia"/>
+                </div>
                 </Grid>
                 <Grid item md={6} xs={12}>
-                    <img className={styles.images} src="images/splash/sesje-swiateczne-04-768x512.jpg" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia" loading="lazy"/>
+                <div className={stylesImage.imageContainer}>
+                    <Image src={imageD} layout="fill" className={stylesImage.image} placeholder="blur" title="Sesje świąteczne. Katowice" alt ="Sesje świąteczne. Szklarnia do wynajęcia. Studio do wynajęcia"/>
+                </div>
                 </Grid>
-                
     
             </Grid>
           </Container>
