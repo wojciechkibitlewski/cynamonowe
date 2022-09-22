@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Link, Typography } from "@mui/material";
+import {Box, Container, Link, Typography } from "@mui/material";
 
 import styles from "../styles/Home.module.css";
 
@@ -17,13 +17,13 @@ const PriceSzklarnia = () => {
             <Typography variant="h4" className={styles.price} gutterBottom >
             Od 7 listopada: 150 zł brutto za godzinę
             </Typography>
-            <Typography gutterBottom sx={{textAlign: 'center', marginTop:'30px'}} >
+            <Box sx={{textAlign: 'center', marginTop:'30px', marginBottom: '10px'}} >
                 <Link 
                 href="./regulamin-szklarnia" 
                 title="Regulamin studia Cynamonowe.com">
                     Regulamin szklarni Cynamonowe.com
                 </Link>
-            </Typography>
+            </Box>
             <Typography variant="caption" display="block" gutterBottom sx={{textAlign: 'center'}} >
             * minimalny czas wynajmu - 1 godzina
             </Typography>

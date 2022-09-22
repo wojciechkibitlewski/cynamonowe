@@ -17,13 +17,13 @@ const PriceStudio = () => {
         <Typography variant="h4" className={styles.price} gutterBottom >
         Od 7 listopada: 150 zł brutto za godzinę
         </Typography>
-        <Typography gutterBottom sx={{textAlign: 'center', marginTop:'30px'}} >
+        <Box sx={{textAlign: 'center', marginTop:'30px', marginBottom: '10px'}} >
             <Link 
             href="./regulamin-studio" 
             title="Regulamin studia Cynamonowe.com">
                 Regulamin studia Cynamonowe.com
             </Link>
-        </Typography>
+        </Box>
         <Typography variant="caption" display="block" gutterBottom sx={{textAlign: 'center'}} >
         * minimalny czas wynajmu - 2 godziny
         </Typography>

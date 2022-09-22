@@ -22,15 +22,15 @@ const Footer = () => {
 
             </Grid>
             <Grid item md={4} xs={12}>
-                <Typography variant="subtitle2" gutterBottom className={styles.footerlink}>
+                <Box className={styles.footerlink} sx={{marginBottom:'10px'}}>
                     <Link href="/polityka-prywatnosci"  >
-                    <a>Polityka prywatności</a>
+                    Polityka prywatności
                     </Link>
                     <Link href="/regulamin-studio" >
-                    <a>Regulaminy</a>
+                    Regulaminy
                     </Link>
 
-                </Typography> 
+                </Box> 
             </Grid>
             <Grid item md={4} xs={12}>
                 <Link href="https://www.facebook.com/cynamonowestudio/" target="_blank" >
