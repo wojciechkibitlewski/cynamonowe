@@ -27,6 +27,7 @@ const Googlemaps = () => {
             className = {styles.mapsContactAddress}
             variant="body"
             component="div"
+            sx={{ marginBottom:'20px'}}
         >
             Ul. Śnieżyczek 11A, Katowice Podlesie
         </Typography>

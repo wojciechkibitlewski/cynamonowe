@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 const Testimonial = () => {
   return (
     <>
-      <Container maxWidth="lg" sx={{marginBottom: '20px'}} >
+      <Container maxWidth="lg" sx={{margin: '20px auto'}} >
 
         <Typography variant="h6" className={styles.testimonialTitle} gutterBottom >
         Cynamonowe studio  to jasna i klimatyczna przestrzeń, w której zrobisz sesję zdjęciową, przeprowadzisz warsztaty fotograficzne lub nagrasz swój film na youtuba. Szukasz niebanalnego wnętrza w Katowicach? Zapraszamy Cię do nas
