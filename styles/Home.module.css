@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap');
-
-
 .splash {
-  background-image: url('../images/splash/IMG_9583-2048x1365.jpg');
+  background-image: url('../public/images/splash/IMG_9583-2048x1365.jpg');
   height: 90vh;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .splashContact {
-  background-image: url('../images/splash/szklarnia-katowice-01-1536x1024.jpg');
+  background-image: url('../public/images/splash/szklarnia-katowice-01-1536x1024.jpg');
   height: 90vh;
   background-position: center;
   background-repeat: no-repeat;

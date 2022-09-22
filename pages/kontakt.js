@@ -48,6 +48,9 @@ export default function Kontakt(props) {
         <link rel="icon" href="images/splash/cropped-cynamonowe-ico-white-32x32.png" sizes="32x32" />
         <link rel="icon" href="images/splash/cropped-cynamonowe-ico-white-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon" href="images/splash/cropped-cynamonowe-ico-white-180x180.png" />   
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap" rel="stylesheet" />
 
       </Head>
       <Testimonial />
