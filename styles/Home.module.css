@@ -59,9 +59,9 @@
 
 }
 .testimonialTitle {
-  font-size: 1.3em;
+  font-size: 1.3em  !important;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400 !important;
   margin: 30px 150px;
 
 
@@ -78,15 +78,15 @@
 }
 .testimonialWho {
   text-transform: uppercase;
-  font-size: 13pt;
-  font-weight: 400;
+  font-size: 13pt !important;
+  font-weight: 400 !important;
   letter-spacing: 3px;
   color: #000;
 
 }
 .price {
   font-size: 2.2em;
-  font-weight: 100;
+  font-weight: 100 !important;
   color: #000;
   text-align: center;
 
@@ -107,9 +107,9 @@
 
   }
   .testimonialTitle {
-    font-size: 1.2em;
+    font-size: 1.2em  !important;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400  !important;
     margin: 30px 10px;
   
   }
