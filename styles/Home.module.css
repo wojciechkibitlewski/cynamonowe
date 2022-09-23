@@ -5,18 +5,20 @@
   font-weight: 400;
   letter-spacing: 2px;
   margin: 10px;
+  color:#000;
 }
 .textBody {
   font-size: 1em;
   margin: 10px;
   text-align: center;
+  color:#000;
 }
 .textTestimonial {
   font-size: 1.3em;
   text-align: center !important;
   font-weight: 600;
   line-height: 1.1;
-
+  color:#000;
   margin: 30px 140px;
 }
 .price {
@@ -24,7 +26,6 @@
   font-weight: 100 !important;
   color: #000;
   text-align: center;
-
 }
 
 
@@ -34,6 +35,7 @@
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fff;
 }
 .splashContact {
   background-image: url('../public/images/splash/szklarnia-katowice-01-1536x1024.jpg');
@@ -41,6 +43,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fff;
+
 }
 .logo {
   width: 200px;
