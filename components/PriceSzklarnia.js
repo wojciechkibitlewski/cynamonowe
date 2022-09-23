@@ -8,7 +8,7 @@ const PriceSzklarnia = () => {
         <>
           <Container sx={{ padding: "40px 0px", width:'100%' }}>
     
-            <Typography variant="h3" className={styles.mapsContactPhone} gutterBottom >
+            <Typography variant="h3" className={styles.naglTitle} gutterBottom >
             Cena za wynajem szklarni
             </Typography>
             <Typography variant="h4" className={styles.price} gutterBottom >

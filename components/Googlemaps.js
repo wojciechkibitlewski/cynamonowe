@@ -10,8 +10,8 @@ const Googlemaps = () => {
   return (
     <Container sx={{ padding: '20px 0px'}}>
         <Typography
-            className = {styles.mapsContactNagl}
-            variant="body"
+            className = {styles.naglTitle}
+            variant="h6"
             component="div"
         >
             kontakt

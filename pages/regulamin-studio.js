@@ -55,7 +55,7 @@ const Regulamin = () => {
       </Head>
       
     <Container sx={{ padding: "100px 10px", width:'100%' }}>
-        <Typography variant="h3" className={styles.mapsContactPhone} gutterBottom >
+        <Typography variant="h3" className={styles.naglTitle} gutterBottom >
         REGULAMIN WYNAJMU STUDIA CYNAMONOWE.COM
         </Typography>
         <Typography variant="body" gutterBottom >

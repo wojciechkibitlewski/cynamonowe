@@ -16,10 +16,10 @@ const Szklarnia = () => {
       <Container maxWidth="lg" sx={{ padding: "20px 0px" }}>
         <Grid container spacing={2}>
             <Grid item md={12} xs={12}>
-                <Typography variant="h3" className={styles.homeTitle} gutterBottom >
+                <Typography variant="h3" className={styles.naglTitle} gutterBottom >
                     Szklarnia do wynajęcia
                 </Typography>
-                <Typography className={styles.homeTextCenter} gutterBottom >
+                <Typography className={styles.textBody} gutterBottom >
                     Pierwsza w Katowicach i całej Aglomeracji szklarnia przeznaczona do sesji fotograficznej.
                 </Typography>
             </Grid>

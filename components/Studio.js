@@ -19,10 +19,10 @@ const Studio = () => {
           <Container maxWidth="lg" sx={{ padding: "20px 0px" }}>
             <Grid container spacing={2}>
                 <Grid item md={12} xs={12}  sx={{padding: '20px'}}>
-                    <Typography variant="h3" className={styles.homeTitle} gutterBottom >
+                    <Typography variant="h3" className={styles.naglTitle} gutterBottom >
                         Cynamonowe Studio
                     </Typography>
-                    <Typography className={styles.homeTextCenter} gutterBottom >
+                    <Typography className={styles.textBody} gutterBottom >
                         Wnętrze do wynajęcia w Katowicach. Jasna i klimatyczna przestrzeń, doskonała do sesji i warsztatów fotograficznych oraz do nagrań filmowych.
                     </Typography>
                 </Grid>

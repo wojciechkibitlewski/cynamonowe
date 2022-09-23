@@ -8,7 +8,7 @@ const PriceStudio = () => {
     <>
       <Container sx={{ padding: "40px 0px", width:'100%', backgroundColor: '#eee' }}>
 
-        <Typography variant="h3" className={styles.mapsContactPhone} gutterBottom >
+        <Typography variant="h3" className={styles.naglTitle} gutterBottom >
         Cena za wynajem studia
         </Typography>
         <Typography variant="h4" className={styles.price} gutterBottom >
