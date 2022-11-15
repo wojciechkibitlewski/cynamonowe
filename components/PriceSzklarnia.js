@@ -12,11 +12,9 @@ const PriceSzklarnia = () => {
             Cena za wynajem szklarni
             </Typography>
             <Typography variant="h4" className={styles.price} gutterBottom >
-            100 zł/brutto za godzinę
+            150 zł/brutto za godzinę
             </Typography>
-            <Typography variant="h4" className={styles.price} gutterBottom >
-            Od 7 listopada: 150 zł brutto za godzinę
-            </Typography>
+            
             <Box sx={{textAlign: 'center', marginTop:'30px', marginBottom: '10px'}} >
                 <Link 
                 href="./regulamin-szklarnia" 
