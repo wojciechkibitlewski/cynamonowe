@@ -4,7 +4,6 @@ import Googlemaps from "../components/Googlemaps";
 import Studio from "../components/Studio";
 import Szklarnia from "../components/Szklarnia";
 
-import LastEvent from "../components/LastEvent";
 
 export default function Home(props) {
   return (
@@ -53,7 +52,6 @@ export default function Home(props) {
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap" rel="stylesheet" />
   
       </Head>
-      <LastEvent />
       <Studio />
       <Szklarnia />
       <Googlemaps />
